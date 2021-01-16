@@ -4,13 +4,6 @@ import os
 
 stripe.api_key = os.getenv('api_key')
 
-# ic_1I59JDJHB9Lj4R4fA0SW1aDh
-# ic_1Hx9vCJHB9Lj4R4fXzZo7MfU
-# ic_1Hori9JHB9Lj4R4fZjlWmXmB
-# ic_1HX1ziJHB9Lj4R4f74uoggxH
-# ic_1HUtdsJHB9Lj4R4fJV5fQ5lS
-
-
 def auth_choice():
   print('Authorisation type outcome: manual you will get a link once the pi is made, automatic authoirsiations will be approved/declined in 60 seconds\n')
   choice = str(input('Manual or automatic auth confirmation? ')).lower()
